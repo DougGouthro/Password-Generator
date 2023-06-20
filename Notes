@@ -1,0 +1,104 @@
+Javascript Day #1 
+
+What is JavaScript?
+    JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.
+
+Begining your Javascrpit.
+    You are going to want to create a javascript file in your folder.  Your file will be named (script.js).  Once you have done that the first thing that you are going to put in it is the following code {console.log('Hello world!')}.  You are also going to want to create a index.html file and start it with typing ! and hitting the tab key.  Once that is done you are going to want input the following code in the 'head' area, (<script src="script.js"></script>).  What this does is link the script.js file to your index.html file.
+
+Adding varribles to Javascript.
+    When adding var(varibles) to your script.js file, you are going to want to do inn this formate.  Such as with css, you are going to add var's like this " var (what is your value) = (your value);" for example var studentName = 'Doug';
+
+Math Operators
+    var a = 100;
+    var b = 10;
+    var c = "10";
+    Arithmetic operators combine with numbers to form an expression that returns a single number
+    console.log(a + b);
+    console.log(a - b);
+    console.log(a / b);
+    console.log(a * b);
+
+Modulus - shows remainder of the two numbers.
+    Modulus returns the remainder between two numbers.  
+    console.log(a % b);
+
+Comparison.
+    Comparison operators combine with strings, booleans and numbers to form an expression that evaluates to true or false
+    // Compares equality
+
+    console.log(b == c);
+    console.log(b != c);
+    
+    Compares equality and type (strict equality)
+    console.log(b === c);
+    console.log(b !== c);
+
+Greater than or less than
+    console.log(a > b);
+    console.log(a < b);
+    
+    // Greater than or equal to and less than or equal to
+    console.log(a <= b);
+    console.log(a >= b);
+
+Logical operators take in two or more expressions and return true or false 
+    var expression1 = (b == c);
+    var expression2 = (a > b);
+    
+    // Evaluates to true if expression1 AND expression2 are both true, otherwise false
+    
+    console.log(expression1 && expression2);
+    
+    // Evaluates to true if expression1 OR expression2 is true, otherwise false
+    
+    console.log(expression1 || expression2);
+    
+    // Logical Not (!) turns an expression that evaluates to true to false and vice versa
+    // Returns true
+    
+    console.log(expression2);
+    
+    // Returns false
+    console.log(!expression2);
+
+Example
+if (lunchBill > 20) { //if the lunchBill is greater then $20
+    console.log('Wow, that is an expensive lunch')
+  } else if (lunchBill > 10 && lunchBill <= 20) { //if the lunchBill is greater then 10 but less then or = to 20
+    console.log('Seems about the right price for lunch')
+  } else {
+    console.log('Dang cheap lunch')
+  }
+
+Javascript Day #2
+
+Arrays.
+  With arrays you can log mutiple things in a var's value.  You can do this with square brakets [] and comma's
+  
+  Example var students = [Doug, Greg, Lisa,]
+  
+  So when you log it it would look like this 
+  console.log(students)
+  In this var the students have given a place, student 0 would be Doug, and student 1 would be Greg so on
+
+  If you want to select one of the students you can do so by
+  console.log(students)[0]
+
+  If you wanted to change one of the "students"
+
+  Loop
+    Loops are used in JavaScript to perform repeated tasks.
+    Example 
+    var students = ["Doug" , "Jon" , "Greg" , "Don" , "Bill" , "Hank"  ]
+
+console.log (students.length)
+
+      for (var i = 0; i < students.length; i++)
+      
+      console.log(students[i] + " Great to see you, "+students[i]+"!" )
+
+Javwscript day #3
+
+Objects
+  
